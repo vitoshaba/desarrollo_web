@@ -1,0 +1,36 @@
+/*selector universal*/
+*
+{
+	border: 1px solid red;
+	margin: 10px;
+}
+header
+{
+	background: green;
+}
+section
+{
+	background: blue;
+}
+/*selector de clase*/
+.title-a
+{
+	background: yellow;
+}
+.title-b
+{
+	background: salmon;
+}
+/*selector de id*/
+#autos
+{
+	border: 3px solid brown;
+}
+#portada
+{
+	border: 3px solid orange;
+}
+#header
+{
+	border: 3px solid black;
+}
