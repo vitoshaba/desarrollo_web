@@ -1,39 +1,61 @@
 
 body{
 	font-family: 'Allerta', sans-serif;
-    }
+	margin: 0;
+ }
+ 
 .titulo
 {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 70px;
+	margin-bottom: 20px;
+	margin-top: 60px;
 }
 .title-a
 {
 	font-size: 24px;
+	margin-top: 0;
 }
 .title-b
 {
 	font-size: 50px;
+	margin-bottom: 20px;
+}
+.autos
+{
 }
 .auto_1
 {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 35px;
+	width: 800px;
+	margin: auto;
 }
 .auto_2
 {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 35px;
+	width: 800px;
+	margin: auto;
 }
 .auto_suv
 {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 35px;
+	width: 800px;
+	margin: auto;
+}
+.portada button
+{
+	margin-bottom: 70px;
 }
 .portada
 {
-	background-image: url('../Imagenes/background.jpg');
+	background-image: url('../Imagenes/llanta.jpg');
 	color: white;
+	padding: 20px;
+	width: 800px;
+	margin: auto;
 }
 .menu
 {
@@ -43,8 +65,14 @@ body{
 .menu li
 {
 	display: inline-block;
+	margin-left: 30px;
 }
 .logotipo
 {
 	display: inline-block;
+}
+.contenedor
+{
+	width: 800px;
+	margin: auto;
 }
