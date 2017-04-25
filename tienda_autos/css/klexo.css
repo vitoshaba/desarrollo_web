@@ -3,6 +3,13 @@ body{
 	font-family: 'Allerta', sans-serif;
 	margin: 0;
  }
+ button 
+ {
+ 	border-radius: 8px;
+ 	border: none;
+ 	background: red;
+ 	color: black;
+ }
  
 .titulo
 {
@@ -21,26 +28,16 @@ body{
 	font-size: 50px;
 	margin-bottom: 20px;
 }
-.auto_1
+.autos
 {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 35px;
 	width: 800px;
 	margin: auto;
-}
-.auto_2
-{
-	font-family: 'Montserrat', sans-serif;
-	font-size: 35px;
-	width: 800px;
-	margin: auto;
-}
-.auto_suv
-{
-	font-family: 'Montserrat', sans-serif;
-	font-size: 35px;
-	width: 800px;
-	margin: auto;
+	overflow: hidden;
+	border: 1px solid #1F313C;
+	border-radius: 10px 10px 10px 10px;
+
 }
 .portada button
 {
@@ -72,4 +69,27 @@ body{
 {
 	width: 800px;
 	margin: auto;
+}
+.derecha
+{
+	float: right;
+	position: relative;
+	top: 50px;
+
+}
+.izquierda
+{
+	float: left;
+	position: relative;
+	top: 50px;
+}
+.contenedor_2
+{
+	margin-right: 370px;
+	padding-left: 20px;
+}
+.contenedor_3
+{
+	margin-left: 370px;
+	padding-right: 20px;
 }
