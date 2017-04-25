@@ -9,6 +9,13 @@ body{
  	border: none;
  	background: red;
  	color: black;
+ 	padding: 7px;
+ }
+ .header
+ {
+ 	position: relative;
+ 	width: 800px;
+	margin: auto;
  }
  
 .titulo
@@ -92,4 +99,17 @@ body{
 {
 	margin-left: 370px;
 	padding-right: 20px;
+}
+.footer
+{
+	background: #273b47;
+}
+.contacto img
+{
+	padding-left: 50px; 
+	display: block:
+}
+.contacto a
+{
+	color: white;
 }
