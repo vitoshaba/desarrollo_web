@@ -76,8 +76,37 @@
 			<a href="mailto:contacto@klexo.com"><strong>E-mail</strong><span>contacto: contacto@klexo.com</span></a>
 
 		</div>
-		<div class="formulario">
-			
+		<div>
+			<form class="formulario">
+				<label for="Nombre" > Nombre</label> 
+				<input type="text" required id="Nombre" name="Nombre" />
+				<label for="E-mail" > E-mail</label> 	
+				<input type="E-mail" required id="E-mail" name="E-mail">
+				<label for="Mujer">
+					<input type="radio" id="Mujer" name="sexo" value="Mujer">Mujer
+				</label for="Hombre">
+					<input type="radio" id="Hombre" name="sexo" value="Hombre">Hombre
+				</label>
+				<div class="Intereses">
+					<label for="Cotizacion">
+						<input type="checkbox" id="Cotizacion" name="Intereses" value="Cotizacion">Cotizacion
+					</label>
+					<label for="Reclamos">
+						<input type="checkbox" id="Cotizacion" name="Intereses" value="Reclamos">Reclamos
+					</label>
+					<label for="Comentarios">
+						<input type="checkbox" id="Cotizacion" name="Intereses" value="Comentarios">Comentarios
+					</label>
+					<label for="Otros">
+						<input type="checkbox" id="Cotizacion" name="Intereses" value="Otros">Otros
+					</label>
+				</div>
+				<div>
+					<label for="Comentarios"></label>
+					<textarea id="Comentarios" cols="30" rows="8"></textarea>
+					<input type="submit" value="Enviar">
+				</div>
+			</form>
 		</div>
 	</footer>  
 </body>
