@@ -30,7 +30,7 @@
 	    <div class="contenedor">
 		<h1 class="titulo"> Autos compactos y sedan</h1><!-- titulo -->
 		<h3 class="title-a">autos nuevos y baratos</h3><!-- resumen -->
-		<button>Mas informacion</button><!-- boton -->
+		<button class="button">Mas informacion</button><!-- boton -->
 		</div>
 	</section>
 	<section id="autos"> <!-- autos -->
@@ -70,6 +70,7 @@
 		 </article>                 	
 	</section>
 	<footer class="footer">
+	<div class="contenedor">
 		<div class="contacto">
 			<img src="Imagenes/klexo.png">
 			<a href="tel:+2723898245"><strong>Telfono</strong><span>23898245</span></a>
@@ -78,15 +79,21 @@
 		</div>
 		<div>
 			<form class="formulario">
+			<div class="col1">
+			 <div class="contacto">
 				<label for="Nombre" > Nombre</label> 
 				<input type="text" required id="Nombre" name="Nombre" />
 				<label for="E-mail" > E-mail</label> 	
 				<input type="E-mail" required id="E-mail" name="E-mail">
-				<label for="Mujer">
+			</div>
+				<div class="sexo">
+					<label for="Mujer">
 					<input type="radio" id="Mujer" name="sexo" value="Mujer">Mujer
-				</label for="Hombre">
-					<input type="radio" id="Hombre" name="sexo" value="Hombre">Hombre
 				</label>
+				<label for="Hombre">
+					<input type="radio" id="Hombre" name="sexo" value="Hombre">Hombre
+				</label>		
+				</div>
 				<div class="Intereses">
 					<label for="Cotizacion">
 						<input type="checkbox" id="Cotizacion" name="Intereses" value="Cotizacion">Cotizacion
@@ -100,14 +107,18 @@
 					<label for="Otros">
 						<input type="checkbox" id="Cotizacion" name="Intereses" value="Otros">Otros
 					</label>
-				</div>
-				<div>
+				</div> 	
+
+			</div> 
+			
+				<div class="col2">
 					<label for="Comentarios"></label>
 					<textarea id="Comentarios" cols="30" rows="8"></textarea>
-					<input type="submit" value="Enviar">
+					<input type="submit" value="Enviar" class="button">
 				</div>
 			</form>
 		</div>
+	</div>
 	</footer>  
 </body>
 </html>
