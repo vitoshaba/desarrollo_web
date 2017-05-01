@@ -157,3 +157,23 @@ body{
 {
 	 margin-top: 10px;
 }
+table
+{
+	width: 100%;
+																																																													
+}
+th
+{
+	background: #273b47
+	color: white;
+	padding: 15px;
+}
+td
+{
+	padding:20px; 
+}
+table, th, td
+{
+	border: 1px solid #273b47;
+	border-collapse: collapse;
+}
