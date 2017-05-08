@@ -1,5 +1,17 @@
 header
 {
 	background: green;
-	margin-top: 0;
+	width: 800px;
+	margin: auto;
+}.dccomics
+{
+	margin-left: 200px;
+}
+.dccomis p
+{
+	padding-left: 200px;
+}
+.marvel
+{
+	margin-left: 200px;
 }
